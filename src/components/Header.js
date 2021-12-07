@@ -41,7 +41,7 @@ const Nav = styled.nav`
     align-items: center;
     display: flex;
     padding: 0 36px;
-    
+    overflow-x: hidden;
 `
 
 const Logo = styled.img`
