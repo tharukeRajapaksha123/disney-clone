@@ -2,10 +2,7 @@
 
 ![](git_images/DisneClone1.png)
 <p></p>
-![](git_images/DisneClone2.png)
-<p></p>
-![](git_images/DisneClone3.png)
-<p></p>
+
 <h3 align="center">Used frameworks - React & Redux</h3>
 
 
