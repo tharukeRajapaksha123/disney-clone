@@ -1,4 +1,4 @@
-<h1 align="center">Hey This is Tesla Clone</h1>
+<h1 align="center">Disney Clone</h1>
 
 ![](git_images/DisneClone1.png)
 <p></p>
