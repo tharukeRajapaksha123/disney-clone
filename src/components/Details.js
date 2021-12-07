@@ -136,6 +136,7 @@ const Subtitle = styled.div`
 `
 
 const Description = styled.div`
+    max-width:760px;
     margin:30px;
     line-height:1.4;
     font-size: 20px; 

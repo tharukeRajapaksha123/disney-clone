@@ -3,13 +3,18 @@ import styled from 'styled-components'
 import ImageSlider from './ImageSlider'
 import Movies from './Movies'
 import Viewers from './Viewers'
-
+import db from '../firebase'
 function Home() {
+
+ 
+
     return (
         <Container>
             <ImageSlider/>
             <Viewers/>
-            <Movies/>
+            <Movies title="Recommended for you"/>
+            <Movies title="Most Popular"/>
+            <Movies title="Family Theater"/>
         </Container>
     )
 }

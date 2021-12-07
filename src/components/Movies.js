@@ -1,21 +1,21 @@
 import React from 'react'
 import styled from 'styled-components'
-function Movies() {
+function Movies({title}) {
     return (
         <Container>
-            <h4> Recommended for you</h4>
+            <h4> {title} </h4>
             <Content>
                 <Wrap>
-                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/game-of-thrones-illustration-sean-longmore-1598631176.jpeg?crop=0.669xw:1.00xh;0.0896xw,0&resize=640:*" alt = "movie"/>
+                    <img src="https://cdn.shopify.com/s/files/1/1057/4964/products/Toy-Story-Vintage-Movie-Poster-Original-1-Sheet-27x41_2e3c6697-790d-4fcc-82bb-75b72a88835c.jpg?v=1629687817" alt = "movie"/>
                 </Wrap>
                 <Wrap>
-                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/game-of-thrones-illustration-sean-longmore-1598631176.jpeg?crop=0.669xw:1.00xh;0.0896xw,0&resize=640:*" alt = "movie"/>
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/p_encanto_payoff_21512_e2c5d246.jpeg" alt = "movie"/>
                 </Wrap>
                 <Wrap>
-                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/game-of-thrones-illustration-sean-longmore-1598631176.jpeg?crop=0.669xw:1.00xh;0.0896xw,0&resize=640:*" alt = "movie"/>
+                    <img src="https://lumiere-a.akamaihd.net/v1/images/p_luca_21670_3c13c611.jpeg" alt = "movie"/>
                 </Wrap>
                 <Wrap>
-                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/game-of-thrones-illustration-sean-longmore-1598631176.jpeg?crop=0.669xw:1.00xh;0.0896xw,0&resize=640:*" alt = "movie"/>
+                    <img src="https://i2.wp.com/www.chipandco.com/wp-content/uploads/2010/09/TANGLED_poster.jpg" alt = "movie"/>
                 </Wrap>
             </Content>
         </Container>
@@ -42,6 +42,7 @@ const Wrap = styled.div`
     box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,rgb(0 0 0 / 73%) 0px 16px 10px -10px;
     border : 3px solid rgba(249,249,249,0.1);
     transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s; 
+    height:200px;
     img{
         width: 100%;
         height: 100%;
